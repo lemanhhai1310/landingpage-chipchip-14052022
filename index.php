@@ -89,7 +89,7 @@
     </div>
 </div>
 <div class="home__block01">
-    <div class="home__block01__section uk-section-small uk-position-relative uk-height-viewport uk-background-image@m">
+    <div class="home__block01__section uk-section-small uk-position-relative uk-background-image@m">
         <div class="uk-container">
             <div class="item__90">
                 <div class="item__32">
@@ -143,7 +143,53 @@
                         tin tưởng vào Chip Chip</h3>
                 </div>
                 <div class="item__32">
+                    <div uk-slider>
 
+                        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+                            <ul class="uk-slider-items uk-child-width-1-1" uk-grid>
+                                <?php for ($i=1;$i<=4;$i++): ?>
+                                <li>
+                                    <div class="uk-grid-collapse uk-grid-match" uk-grid>
+                                        <div class="uk-width-1-3@m">
+                                            <div class="uk-cover-container">
+                                                <img src="images/Frame317.png" alt="" uk-cover="">
+                                                <canvas width="448" height="300"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="uk-padding-small home__phuhuynh__box uk-flex uk-flex-middle">
+                                                <div class="uk-width-1-1">
+                                                    <div class="item__15">
+                                                        <span class="home__phuhuynh__star"></span>
+                                                        <span class="home__phuhuynh__star"></span>
+                                                        <span class="home__phuhuynh__star"></span>
+                                                        <span class="home__phuhuynh__star"></span>
+                                                        <span class="home__phuhuynh__star"></span>
+                                                    </div>
+                                                    <div class="item__15">
+                                                        <div class="home__phuhuynh__desc">Autem consectetur sed est nisi optio ut sapiente ut ducimus. Neque enim et tempora incidunt id minima facilis id. Suscipit non eligendi saepe earum velit nostrum. Culpa quod facere. Facere et et est itaque voluptas odio dolor et id.</div>
+                                                    </div>
+                                                    <div class="item__15">
+                                                        <div class="home__phuhuynh__txt">Chị Ngô Thu Hà</div>
+                                                        <div class="home__phuhuynh__txt">Phụ huynh học sinh</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <?php endfor; ?>
+                            </ul>
+
+                            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+                        </div>
+
+                        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -155,7 +201,34 @@
             <h3 class="home__title uk-h3 uk-text-center">Trải nghiệm video lớp học</h3>
         </div>
         <div class="item__32">
-
+            <div class="uk-grid-small uk-grid-30-m uk-grid-match" uk-grid>
+                <div class="uk-width-expand">
+                    <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1920" height="1080" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+                </div>
+                <div class="uk-width-1-3@m">
+                    <div class="uk-grid-small uk-grid-30-m uk-grid-match uk-child-width-1-1" uk-grid>
+                        <?php for ($i=1;$i<=3;$i++): ?>
+                        <div>
+                            <div class="uk-card uk-card-default uk-border-rounded uk-padding-small uk-flex-middle uk-flex">
+                                <div class="uk-width-1-1">
+                                    <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                        <div class="uk-width-auto">
+                                            <div class="uk-cover-container uk-border-circle">
+                                                <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                                <canvas width="60" height="60"></canvas>
+                                            </div>
+                                        </div>
+                                        <div class="uk-width-expand">
+                                            <div class="home__video__txt">Quang Tuấn (9 tuổi) với cô Emilly</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <?php endfor; ?>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="item__32 uk-text-center">
             <button class="uk-button uk-button-default home__dky__box1__btn">Đăng ký nhận tư vấn</button>

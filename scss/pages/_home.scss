@@ -23,6 +23,33 @@
               url(images/bg_left.png) no-repeat top 57px left 57px;
     }
   }
+  &__phuhuynh{
+    &__box{
+      background: #715DED;
+      @include media-breakpoint-up('m'){
+        padding: 32px;
+      }
+    }
+    &__desc{
+      @extend .fz-18;
+      line-height: (24/18);
+      font-family: $SF-Compact-Rounded-Medium;
+    }
+    &__txt{
+      @extend .fz-16;
+      font-family: $SF-Compact-Rounded-Regular;
+      line-height: (24/16);
+    }
+    &__star{
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      background-image: url("data:image/svg+xml,%3Csvg width='34' height='33' viewBox='0 0 34 33' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.2311 1.35268C15.9815 -0.0696117 18.0185 -0.0696151 18.7689 1.35268L22.6541 8.71645C22.9435 9.26494 23.4709 9.64816 24.082 9.75389L32.2859 11.1734C33.8705 11.4475 34.5 13.3848 33.3792 14.538L27.5764 20.5086C27.1442 20.9533 26.9427 21.5733 27.031 22.1872L28.2161 30.4282C28.445 32.02 26.7971 33.2173 25.354 32.5077L17.8825 28.8339C17.326 28.5603 16.674 28.5603 16.1175 28.8339L8.64602 32.5077C7.20292 33.2173 5.55498 32.02 5.78388 30.4282L6.96903 22.1872C7.0573 21.5733 6.85583 20.9533 6.42362 20.5086L0.620841 14.538C-0.499951 13.3848 0.129504 11.4475 1.71408 11.1734L9.91802 9.75389C10.5291 9.64816 11.0565 9.26494 11.3459 8.71645L15.2311 1.35268Z' fill='%23FFC531'/%3E%3C/svg%3E%0A");
+    }
+  }
   &__chuongtrinhen{
     &__txt1{
       @extend .fz-20;
@@ -127,6 +154,12 @@
   }
   &__video{
     background: #F3F5FB;
+    &__txt{
+      color: #333333;
+      @extend .fz-16;
+      line-height: (24/16);
+      font-family: $SF-Compact-Rounded-Medium;
+    }
   }
   &__dky{
     &__box{
