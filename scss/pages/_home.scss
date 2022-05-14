@@ -1,0 +1,122 @@
+.home{
+  &__title{
+    color: #0030AA;
+    @extend .fz-32;
+    line-height: (40/32);
+    margin: 0;
+    font-family: $SF-Compact-Rounded-Semibold;
+  }
+  &__video{
+    background: #F3F5FB;
+  }
+  &__dky{
+    &__box{
+      background: #FBC762;
+      img{
+        margin-top: -95px;
+      }
+    }
+    &__box1{
+      background: #FAFAFA;
+      @include media-breakpoint-up('m'){
+        padding: 32px;
+      }
+      &__txt{
+        color: #000000;
+        @extend .fz-18;
+        font-family: $SF-Compact-Rounded-Medium;
+        line-height: (24/18);
+      }
+      &__label{
+        color: #4B4B4B;
+        line-height: (24/16);
+        @extend .fz-16;
+        font-family: $SF-Compact-Rounded-Semibold;
+      }
+      &__input{
+        $x:52px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 10px;
+        height: #{$x};
+      }
+      &__btn{
+        $x:52px;
+        line-height: calc(#{$x} - 2px);
+        background: #65DC53;
+        border-color: #65DC53;
+        color: #FFFFFF;
+        text-transform: inherit;
+        border-radius: 10px;
+        @extend .fz-18;
+        font-family: $SF-Compact-Rounded-Semibold;
+      }
+    }
+  }
+  &__baochi{
+    &__box{
+      max-width: 736px;
+      background: #67D37F;
+      border-radius: 16px;
+      @include media-breakpoint-up('m'){
+        padding: 32px;
+      }
+      >*{
+        &:nth-child(n+2){
+          margin-top: 15px;
+        }
+      }
+      &__txt1{
+        color: #ffffff;
+        @extend .fz-18;
+        font-family: $SF-Compact-Rounded-Medium;
+        line-height: (24/18);
+      }
+      &__txt2{
+        color: #ffffff;
+        line-height: (24/16);
+        @extend .fz-16;
+        font-family: $SF-Compact-Rounded-Regular;
+      }
+    }
+    &__logo{
+      height: 44px;
+    }
+  }
+  &__consoantuong{
+    &__column{
+
+    }
+    &__box{
+      min-height: 200px;
+      background: #F2F2F2;
+      border-radius: 20px;
+      text-align: center;
+      &__txt1{
+        @extend .fz-48;
+        font-family: $SF-Compact-Rounded-Semibold;
+        line-height: (60/48);
+        .home__consoantuong__column:nth-child(1) &{
+          color: #FF9E0D;
+        }
+        .home__consoantuong__column:nth-child(2) &{
+          color: #67D37F;
+        }
+        .home__consoantuong__column:nth-child(3) &{
+          color: #715DED;
+        }
+      }
+      &__txt2{
+        color: #333333;
+        @extend .fz-20;
+        font-family: $SF-Compact-Rounded-Medium;
+        line-height: (28/20);
+      }
+      &__item{
+        &:nth-child(n+2){
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

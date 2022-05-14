@@ -1,5 +1,31 @@
 /**
  * --------------------------------------------------------------------
+ * SF-compact-rounded
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'SF Compact Rounded Regular';
+  font-display: auto;
+  src:local('SF Compact Rounded Regular'), url('fonts/SF-compact-rounded/SF-Compact-Rounded-Regular.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'SF Compact Rounded Semibold';
+  font-display: auto;
+  src:local('SF Compact Rounded Semibold'), url('fonts/SF-compact-rounded/SF-Compact-Rounded-Semibold.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'SF Compact Rounded Medium';
+  font-display: auto;
+  src:local('SF Compact Rounded Medium'), url('fonts/SF-compact-rounded/SF-Compact-Rounded-Medium.otf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
  * Arial
  * --------------------------------------------------------------------
  */

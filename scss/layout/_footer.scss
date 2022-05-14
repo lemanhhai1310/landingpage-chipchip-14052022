@@ -1,0 +1,7 @@
+.footer{
+  &__txt{
+    @extend .fz-14;
+    font-family: $SF-Compact-Rounded-Medium;
+    color: #595959;
+  }
+}
