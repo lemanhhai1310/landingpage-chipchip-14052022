@@ -1,6 +1,39 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<div class="home__banner">
+    <div class="uk-container uk-container-expand-right">
+        <div class="uk-flex-middle" uk-grid>
+            <div class="uk-width-expand">
+                <div class="uk-section-xsmall">
+                    <div class="item__32">
+                        <div class="item__24">
+                            <div class="item__8">
+                                <div class="home__banner__txt">Tiếng Anh trẻ em Online hè 2022</div>
+                            </div>
+                            <div class="item__8">
+                                <h1 class="uk-h1 home__banner__title">Hè phiêu lưu ký</h1>
+                            </div>
+                        </div>
+                        <div class="item__24">
+                            <ul class="uk-list home__banner__list">
+                                <li>Nhân đôi khả năng tiếng Anh với khoá học online 1 kèm 1 cùng giáo viên nước ngoài</li>
+                                <li>ặng miễn phí Khoá học Khoa học bằng tiếng Anh trị giá 2 triệu đồng</li>
+                                <li>Nhận học bổng hè siêu ưu đãi lên tới 45% & combo quà tặng hè độc quyền Chip Chip</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="item__32">
+                        <button class="uk-button uk-button-default home__dky__box1__btn">Đăng ký nhận tư vấn</button>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-auto">
+                <img src="images/Frame.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 <div class="uk-section-small">
     <div class="uk-container">
         <div class="item__32">
