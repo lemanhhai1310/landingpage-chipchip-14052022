@@ -1,6 +1,49 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<div class="uk-section-small">
+    <div class="uk-container">
+        <div class="item__32">
+            <h3 class="home__title uk-h3 uk-text-center">Đột phá gấp đôi khả năng tiếng Anh <br class="uk-visible@m">
+                ngay trong hè này!</h3>
+        </div>
+        <div class="item__32">
+            <div class="uk-child-width-1-2@m" uk-grid>
+                <div class="uk-flex-last@m">
+                    <img src="images/Frame19.png" alt="">
+                </div>
+                <div>
+                    <ul class="uk-list home__dotpha__list">
+                        <li>
+                            Thoải mái <b>học ở bất kỳ đâu, bất kỳ khi nào</b>, không lo phải đi lại, mất lớp do trùng lịch như đi học trung tâm
+                        </li>
+                        <li>
+                            Chủ động lựa chọn và đặt lịch học với hơn 300 giáo viên nước ngoài uy tín giúp con <b>được sửa lỗi sai, giao tiếp tự tin và phản xạ tiếng Anh trong 3 tháng.</b>
+                        </li>
+                        <li>
+                            <b>Ôn luyện kiến thức và khả năng phát âm sau giờ học</b> với kho bài tập tiếng Anh dưới dạng game không nhàm chán.
+                        </li>
+                        <li>
+                            <b>Phát triển tư duy sáng tạo và khả năng thuyết trình bằng tiếng Anh</b> qua việc tham gia các dự án cá nhân thường xuyên với giáo viên nước ngoài.
+                        </li>
+                        <li>
+                            Ứng dụng tiếng Anh vào thực tế qua <b>những hoạt động workshop thực hành thú vị & phù hợp</b> với lứa tuổi của con
+                        </li>
+                        <li>
+                            Cơ hội để con đột phá năng lực bản thân khi được <b>tham gia tranh tài trong cuộc thi Ngôi sao Anh ngữ.</b>
+                        </li>
+                        <li>
+                            Ba mẹ <b>dễ dàng theo dõi tiến bộ của con qua ứng dụng</b> Chipchip dành cho phụ huynh.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="item__32">
+            <button class="uk-button uk-button-default home__dky__box1__btn">Đăng ký nhận tư vấn</button>
+        </div>
+    </div>
+</div>
 <div class="uk-section-small home__video">
     <div class="uk-container">
         <div class="item__32">

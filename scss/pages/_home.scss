@@ -6,6 +6,34 @@
     margin: 0;
     font-family: $SF-Compact-Rounded-Semibold;
   }
+  &__dotpha{
+    &__list{
+      >li{
+        &:nth-child(n+2){
+          margin-top: 20px;
+        }
+        color: #000000;
+        font-family: $SF-Compact-Rounded-Regular;
+        @extend .fz-16;
+        line-height: (24/16);
+        padding-left: 10px;
+        position: relative;
+        &:before{
+          content: "";
+          top: 5px;
+          left: 0;
+          position: absolute;
+          width: 2px;
+          height: 16px;
+          display: block;
+          background: #66DB52;
+        }
+        b{
+          font-family: $SF-Compact-Rounded-Semibold;
+        }
+      }
+    }
+  }
   &__video{
     background: #F3F5FB;
   }
