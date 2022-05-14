@@ -1,6 +1,17 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<nav class="uk-navbar-container" uk-navbar>
+
+    <div class="uk-navbar-left">
+        <div class="uk-navbar-item"></div>
+    </div>
+
+    <div class="uk-navbar-center">
+        <a href="" class="uk-navbar-item uk-logo"><img src="images/logochip.png" alt=""></a>
+    </div>
+
+</nav>
 <div class="home__banner">
     <div class="uk-container uk-container-expand-right">
         <div class="uk-flex-middle" uk-grid>

@@ -105,6 +105,11 @@
         border-radius: 10px;
         @extend .fz-18;
         font-family: $SF-Compact-Rounded-Semibold;
+        .home__banner &{
+          background: #FFFFFF;
+          border-color: #FFFFFF;
+          color: #333333;
+        }
       }
     }
   }
