@@ -88,6 +88,67 @@
         </div>
     </div>
 </div>
+<div class="home__block01">
+    <div class="home__block01__section uk-section-small uk-position-relative uk-height-viewport uk-background-image@m">
+        <div class="uk-container">
+            <div class="item__90">
+                <div class="item__32">
+                    <h3 class="home__title uk-h3 uk-text-center">Chương trình tiếng Anh hè đột phá cho <br class="uk-visible@m">
+                        trẻ em 4 - 12 tuổi</h3>
+                </div>
+                <div class="item__32">
+                    <div class="uk-child-width-1-3@m uk-grid-small uk-grid-30-m" uk-grid>
+                        <div class="home__chuongtrinhen__column">
+                            <div>
+                                <div class="uk-padding-small uk-text-center">
+                                    <img class="uk-width-1-1" src="images/Rectangle3.png" alt="">
+                                </div>
+                                <div class="uk-padding-small home__chuongtrinhen__box1">
+                                    <div class="home__chuongtrinhen__txt1">Học trực tuyến 1 kèm 1 với giáo viên nước ngoài</div>
+                                    <div class="home__chuongtrinhen__desc">Chương trình tiếng Anh trực tuyến được đầu tư từ Singapore với hơn 300 giáo viên nước ngoài giỏi, công nghệ lớp học SmartClass độc quyền, nội dung học sinh động đa dạng chủ đề với những bài thực hành dự án cá nhân thú vị giúp con đột phá năng lực tiếng Anh trong thời gian ngắn nhất.</div>
+                                    <div><a class="home__chuongtrinhen__link" href="">Tìm hiểu thêm</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__chuongtrinhen__column">
+                            <div>
+                                <div class="uk-padding-small uk-text-center">
+                                    <img class="uk-width-1-1" src="images/Rectangle31.png" alt="">
+                                </div>
+                                <div class="uk-padding-small home__chuongtrinhen__box1">
+                                    <div class="home__chuongtrinhen__txt1">Học trực tuyến 1 kèm 1 với giáo viên nước ngoài</div>
+                                    <div class="home__chuongtrinhen__desc">Chương trình tiếng Anh trực tuyến được đầu tư từ Singapore với hơn 300 giáo viên nước ngoài giỏi, công nghệ lớp học SmartClass độc quyền, nội dung học sinh động đa dạng chủ đề với những bài thực hành dự án cá nhân thú vị giúp con đột phá năng lực tiếng Anh trong thời gian ngắn nhất.</div>
+                                    <div><a class="home__chuongtrinhen__link" href="">Tìm hiểu thêm</a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home__chuongtrinhen__column">
+                            <div>
+                                <div class="uk-padding-small uk-text-center">
+                                    <img class="uk-width-1-1" src="images/Rectangle32.png" alt="">
+                                </div>
+                                <div class="uk-padding-small home__chuongtrinhen__box1">
+                                    <div class="home__chuongtrinhen__txt1">Học trực tuyến 1 kèm 1 với giáo viên nước ngoài</div>
+                                    <div class="home__chuongtrinhen__desc">Chương trình tiếng Anh trực tuyến được đầu tư từ Singapore với hơn 300 giáo viên nước ngoài giỏi, công nghệ lớp học SmartClass độc quyền, nội dung học sinh động đa dạng chủ đề với những bài thực hành dự án cá nhân thú vị giúp con đột phá năng lực tiếng Anh trong thời gian ngắn nhất.</div>
+                                    <div><a class="home__chuongtrinhen__link" href="">Tìm hiểu thêm</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item__90">
+                <div class="item__32">
+                    <h3 class="home__title uk-h3 uk-text-center">Hàng ngàn phụ huynh học sinh đã <br class="uk-visible@m">
+                        tin tưởng vào Chip Chip</h3>
+                </div>
+                <div class="item__32">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="uk-section-small home__video">
     <div class="uk-container">
         <div class="item__32">

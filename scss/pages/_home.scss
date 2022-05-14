@@ -6,6 +6,70 @@
     margin: 0;
     font-family: $SF-Compact-Rounded-Semibold;
   }
+  &__block01{
+    position: relative;
+    &:before{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      min-height: 460px;
+      background: #F7F7F9;
+    }
+    &__section{
+      background:
+              url(images/bg_right.png) no-repeat top right,
+              url(images/bg_left.png) no-repeat top 57px left 57px;
+    }
+  }
+  &__chuongtrinhen{
+    &__txt1{
+      @extend .fz-20;
+      line-height: (28/20);
+      font-family: $SF-Compact-Rounded-Semibold;
+    }
+    &__desc{
+      @extend .fz-16;
+      line-height: (24/16);
+      font-family: $SF-Compact-Rounded-Regular;
+    }
+    &__link{
+      color: #FFFFFF;
+      @extend .fz-18;
+      line-height: (24/18);
+      font-family: $SF-Compact-Rounded-Medium;
+    }
+    &__column{
+
+    }
+    &__box1{
+      color: #FFFFFF;
+      @include media-breakpoint-up('m'){
+
+      }
+      >*{
+        &:nth-child(n+2){
+          margin-top: 15px;
+        }
+      }
+      border-radius: 16px;
+      margin-top: -40px;
+      padding-top: 40px;
+      .home__chuongtrinhen__column:nth-child(1) &{
+        background: linear-gradient(180deg, #4D4ADA 0%, #8B88FC 100%), #605DED;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+      }
+      .home__chuongtrinhen__column:nth-child(2) &{
+        background: linear-gradient(180deg, #60B81C 0%, #ACEB7B 144.66%), #605DED;
+        box-shadow: 0px 16px 26px rgba(0, 0, 0, 0.1);
+      }
+      .home__chuongtrinhen__column:nth-child(3) &{
+        background: linear-gradient(180deg, #F78D10 0%, #FFD08A 144.05%), #605DED;
+        box-shadow: 0px 16px 26px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
   &__banner{
     background: radial-gradient(28.3% 204.25% at 72.29% 100%, #FFCF59 0%, #FFB64F 100%);
     &__txt{
